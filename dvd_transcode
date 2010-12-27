@@ -5,7 +5,7 @@ import os
 import subprocess
 
 def main():
-	parser = argparse.ArgumentParser(description='Transcodes a video to DVD compatible MPEG-2 using mencoder')
+	parser = argparse.ArgumentParser(description='Transcodes videos to DVD compatible MPEG-2 using mencoder')
 	parser.add_argument('file', help='Input file', nargs='+')
 	args = parser.parse_args()
 
