@@ -1,0 +1,13 @@
+dvd_transcode takes a list of video files and transcodes them into DVD compliant MPEG-2 (NTSC).
+
+The output is stored next to the source file(s) but with the extension .mpg instead.
+
+Usage:
+
+	dvd_transcode file [file ...]
+
+Example:
+
+	dvd_transcode ~/Movies/our_holiday_video.mkv
+
+	This will transcode our_holiday_video.mkv into MPEG-2 and save the result as ~/Movies/our_holiday_video.mpg
